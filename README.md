@@ -1,6 +1,9 @@
 # ask_bot
 Description of the bot "Generator of questions for communication":
 
+Preview
+![scrshot1](https://github.com/EnjoyGray/ask_bot/assets/111348294/c5c5af2c-7c0c-495f-8d5b-5f52c4118130)
+
 This Telegram bot was created to provide people with interesting questions to discuss and communicate.
 It offers two topics for generating questions: "I've never..." and "Random Question".
 
@@ -15,3 +18,5 @@ They are designed to expand the horizons of communication and encourage users to
 The purpose of this bot is to create an incentive for communication and discussion of various topics among users. 
 It can be a useful tool for people who want to develop communication skills, make new friends or just enjoy interesting conversations.
 The bot provides questions that can spark interesting discussions and broaden the horizons of participants. It can be used as an easy way to start a conversation or
+
+
