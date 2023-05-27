@@ -17,10 +17,10 @@ async def commad_start(message: types.Message):
 @dp.message_handler()
 async def bot_message(message: types.Message):
     if message.text == '❕Я ніколи не...❕':
-        await bot.send_message(message.from_user.id, f'{qst_inv200()}', reply_markup=markups.mainMenu)
+        await bot.send_message(message.from_user.id, f'{qst_inv200()}.', reply_markup=markups.mainMenu)
 
     elif message.text == '❗️Випадкове питання❗️':
-        await bot.send_message(message.chat.id, f"{qst500()}.❓", reply_markup=markups.mainMenu)
+        await bot.send_message(message.chat.id, f"{qst500()[:-1]}❓", reply_markup=markups.mainMenu)
 
 
 if __name__ == '__main__':
